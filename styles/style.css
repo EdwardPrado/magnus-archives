@@ -1,0 +1,254 @@
+body {
+  background-color: #191919;
+  font-family: "Domine", serif;
+}
+
+body a {
+  text-decoration: none;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #191919;
+}
+
+.magnus-link {
+  border-bottom: 1px solid #1d9a48;
+}
+
+.btn-magnus {
+  background-color: #1d9a48;
+  color: #dcdcdc !important;
+  font-family: "Roboto", sans-serif;
+  border: none;
+}
+
+.btn-magnus:hover {
+  background-color: #1d9a48;
+}
+
+/* Magnus Main */
+#magnus-main {
+  background-color: #dcdcdc;
+  width: 100%;
+  color: #191919;
+  padding: 2vh 0;
+  line-height: 150%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#magnus-main a {
+  color: #191919;
+}
+
+#magnus-main h1 {
+  font-size: 2.75em;
+  margin: 7vh 0 0 0;
+}
+
+#magnus-main article {
+  margin: 5vh 0;
+  width: 55%;
+  max-width: 55%;
+  padding: 0 7.5rem;
+}
+
+.credits {
+  width: 60%;
+  margin: 0 10vw 3vh 10vw;
+  text-align: center;
+}
+
+.credit-block {
+  margin-top: 5vh;
+}
+
+.credit-block h2 {
+  text-transform: capitalize;
+}
+
+#recurring h4 {
+  margin: 0.5vh;
+}
+
+.magnus-cards {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.magnus-cards div {
+  width: 18rem;
+}
+
+.card-img-top {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 200px;
+}
+
+.card {
+  margin-bottom: 2rem;
+}
+
+.navbar-brand {
+  margin-left: 5rem;
+}
+
+/*Footer*/
+footer {
+  font-family: "Roboto", sans-serif;
+  background-color: #191919;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dcdcdc;
+  padding: 3vh 0 5vh 0;
+}
+
+footer a {
+  color: #dcdcdc;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #1d9a48;
+}
+
+footer h4 {
+  margin: 0;
+}
+
+footer h5 {
+  margin: 0;
+  text-align: center;
+}
+
+#ft-nav {
+  padding-top: 16px;
+  padding-bottom: 6px;
+}
+
+#ft-nav > ul {
+  font-size: 0.85rem;
+  list-style: none;
+  text-align: center;
+}
+
+.magnus-links-list {
+  margin: 0;
+  padding: 0;
+}
+
+.magnus-links-list li {
+  display: inline;
+  padding: 0 0.25rem;
+}
+
+#ft-socials {
+  padding: 0;
+  margin: 16px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#ft-socials li {
+  padding: 0 12px;
+}
+
+.social {
+  font-size: 1.75rem;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 992px) {
+  header img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 100%;
+  }
+  #magnus-main article {
+    width: 100%;
+    padding: 0;
+  }
+  .card {
+    margin-bottom: 10vh;
+  }
+  .magnus-cards {
+    width: 100%;
+  }
+  .credits {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .magnus-cards {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .navbar-brand {
+    margin-left: 1rem;
+  }
+  .navbar-nav {
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .acast-widget {
+    width: 80%;
+  }
+  #magnus-sites li {
+    display: block;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

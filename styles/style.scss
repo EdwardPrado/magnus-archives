@@ -1,0 +1,208 @@
+$primaryGreen: #1d9a48;
+$primaryBlack: #191919;
+$primaryWhite: #dcdcdc;
+
+$standardWidth: 60%;
+
+body {
+  background-color: $primaryBlack;
+  font-family: "Domine", serif;
+  a {
+    text-decoration: none;
+  }
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $primaryBlack;
+}
+
+.magnus-link {
+  border-bottom: 1px solid $primaryGreen;
+}
+
+.btn-magnus {
+  background-color: $primaryGreen;
+  color: $primaryWhite !important;
+  font-family: "Roboto", sans-serif;
+  border: none;
+}
+
+.btn-magnus:hover {
+  background-color: $primaryGreen;
+}
+
+/* Magnus Main */
+
+#magnus-main {
+  background-color: $primaryWhite;
+  width: 100%;
+  color: $primaryBlack;
+  padding: 2vh 0;
+  line-height: 150%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  a {
+    color: $primaryBlack;
+  }
+
+  h1 {
+    font-size: 2.75em;
+    margin: 7vh 0 0 0;
+  }
+}
+
+#magnus-main article {
+  margin: 5vh 0;
+  width: 55%;
+  max-width: 55%;
+  padding: 0 7.5rem;
+}
+
+.credits {
+  width: $standardWidth;
+  margin: 0 10vw 3vh 10vw;
+  text-align: center;
+}
+
+.credit-block {
+  margin-top: 5vh;
+}
+
+.credit-block h2 {
+  text-transform: capitalize;
+}
+
+#recurring h4 {
+  margin: 0.5vh;
+}
+
+.magnus-cards {
+  width: $standardWidth;
+  display: flex;
+  justify-content: space-between;
+
+  div {
+    width: 18rem;
+  }
+}
+
+.card-img-top {
+  object-fit: contain;
+  height: 200px;
+}
+
+.card {
+  margin-bottom: 2rem;
+}
+
+.navbar-brand {
+  margin-left: 5rem;
+}
+
+/*Footer*/
+footer {
+  font-family: "Roboto", sans-serif;
+  background-color: $primaryBlack;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #dcdcdc;
+  padding: 3vh 0 5vh 0;
+  a {
+    color: $primaryWhite;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $primaryGreen;
+  }
+  h4 {
+    margin: 0;
+  }
+  h5 {
+    margin: 0;
+    text-align: center;
+  }
+}
+#ft-nav {
+  padding-top: 16px;
+  padding-bottom: 6px;
+  > ul {
+    font-size: 0.85rem;
+    list-style: none;
+    text-align: center;
+  }
+}
+.magnus-links-list {
+  margin: 0;
+  padding: 0;
+  li {
+    display: inline;
+    padding: 0 0.25rem;
+  }
+}
+#ft-socials {
+  padding: 0;
+  margin: 16px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  li {
+    padding: 0 12px;
+  }
+}
+.social {
+  font-size: 1.75rem;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 992px) {
+  header {
+    img {
+      object-fit: contain;
+      width: 100%;
+    }
+  }
+  #magnus-main article {
+    width: 100%;
+    padding: 0;
+  }
+  .card {
+    margin-bottom: 10vh;
+  }
+  .magnus-cards {
+    width: 100%;
+  }
+  .credits {
+    width: 100%;
+    justify-content: center;
+  }
+  .magnus-cards {
+    justify-content: center;
+  }
+  .navbar-brand {
+    margin-left: 1rem;
+  }
+  .navbar-nav {
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .acast-widget {
+    width: 80%;
+  }
+  #magnus-sites {
+    li {
+      display: block;
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+  }
+}

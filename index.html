@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>The Magnus Archives - Horror Podcast</title>
+    <link rel="icon" href="assets/rusty-quill-logo-2048-black.jpg" />
+    <meta
+      name="Description"
+      content="A recreation and redesign of Rusty Quill's 'The Magnus Archives' page made as a portfolio piece."
+    />
+
+    <!-- CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <a class="navbar-brand" href="https://rustyquill.com/">
+        <img
+          src="assets/rusty-quill-logo-2048-black.jpg"
+          style="width: 50px; height: 50px; background-blend-mode: overlay"
+          alt="Rusty Quill Logo"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://rustyquill.com/about/">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="shows"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Shows
+            </a>
+            <div class="dropdown-menu" aria-labelledby="shows">
+              <a
+                class="dropdown-item"
+                href="https://rustyquill.com/gaming-and-giving-2020/"
+                >RQ: Gaming and Giving 2020 #RQGG20</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://rustyquill.com/stellar-firma/"
+                >Stellar Firma</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://rustyquill.com/rusty-quill-gaming/"
+                >Rusty Quill Gaming - Actual Play Podcast</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://rustyquill.com/the-magnus-archives/"
+                >The Magnus Archives - Horror Podcast</a
+              >
+              <a class="dropdown-item" href="https://rustyquill.com/outliers/"
+                >Outliers</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://rustyquill.com/enthusigasm-podcast/"
+                >Enthusigasm Podcast</a
+              >
+              <a class="dropdown-item" href="https://rustyquill.com/rq-streams/"
+                >RQ Streams</a
+              >
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="https://rustyquill.com/subscribe/"
+                >Subscribe</a
+              >
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Support
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://rustyquill.com/patrons/"
+                >Patrons</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://rustyquill.com/patreon-content-explorer/"
+                >Patreon Content Explorer</a
+              >
+            </div>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://www.teepublic.com/stores/rusty-quill?utm_campaign=12293&utm_medium=affiliate&utm_source=Rusty%2BQuill"
+              >Store</a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Social
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://discord.com/invite/xte5Dsg"
+                >Discord</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.facebook.com/therustyquill"
+                >Facebook</a
+              >
+              <a class="dropdown-item" href="https://www.twitch.tv/rusty_quill"
+                >Twitch</a
+              >
+              <a class="dropdown-item" href="https://twitter.com/TheRustyQuill"
+                >Twitter</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.instagram.com/rustyquilluk/"
+                >Instagram</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.reddit.com/r/TheMagnusArchives/"
+                >Magnus Archives Reddit</a
+              >
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://rustyquill.com/news/">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://rustyquill.com/reviews/"
+              >Reviews</a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Contact
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://rustyquill.com/jobs/"
+                >Jobs</a
+              >
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header>
+      <img src="assets/magnus-archives-banner.png" alt="Magnus Archives Logo" />
+    </header>
+    <section id="magnus-main">
+      <article>
+        <b>The Magnus Archives</b> is a weekly horror fiction anthology podcast
+        examining what lurks in the archives of the Magnus Institute, an
+        organisation dedicated to researching the esoteric and the weird. Join
+        new head archivist Jonathan Sims as he attempts to bring a seemingly
+        neglected collection of supernatural statements up to date, converting
+        them to audio and supplementing them with follow-up work from his small
+        but dedicated team.
+
+        <br /><br />
+
+        Individually, they are unsettling. Together they begin to form a picture
+        that is truly horrifying because as they look into the depths of the
+        archives, something starts to look back…
+      </article>
+
+      <iframe
+        title="Embed Player"
+        width="512px"
+        height="726px"
+        src="https://embed.acast.com/themagnusarchives?feed=true"
+        scrolling="no"
+        frameborder="0"
+        class="acast-widget"
+        title="Acast Widget"
+        style="border: none; overflow: hidden"
+      ></iframe>
+      <br />
+      <a
+        href="https://rustyquill.com/subscribe/"
+        class="btn btn-magnus rounded-pill"
+        >Subscribe</a
+      >
+      <br />
+      <iframe
+        src="https://www.patreon.com/platform/iframe?widget=become-patron-button&amp;redirectURI=https%3A%2F%2Frustyquill.com%2Fthe-magnus-archives%2F&amp;creatorID=5461428"
+        scrolling="no"
+        allowtransparency="true"
+        frameborder="0"
+        class="patreon-widget"
+        title="Patreon Widget"
+        style="
+          position: static;
+          visibility: visible;
+          width: 176px;
+          height: 33px;
+        "
+      ></iframe>
+
+      <h1>Credits</h1>
+      <div class="credits container row">
+        <div class="credit-block col-md-6 col-sm-12">
+          <h2>Written and performed by</h2>
+          <h5>
+            <a href="https://rustyquill.com/jonathan-sims/" class="magnus-link"
+              >Jonathan Sims</a
+            >
+          </h5>
+        </div>
+        <div class="credit-block col-md-6 col-sm-12">
+          <h2>Directed and produced by</h2>
+          <h5>
+            <a
+              href="https://rustyquill.com/alexander-j-newall/"
+              class="magnus-link"
+              >Alexander J. Newall</a
+            >
+          </h5>
+        </div>
+        <div class="credit-block col-md-6 col-sm-12">
+          <h2>Recurring Cast</h2>
+          <h5>
+            <a href="https://rustyquill.com/jonathan-sims/" class="magnus-link"
+              >Jonathan Sims</a
+            >
+            as <b>The Archivist</b>
+          </h5>
+          <h5>
+            <a
+              href="https://rustyquill.com/alexander-j-newall/"
+              class="magnus-link"
+              >Alexander J. Newall</a
+            >
+            as <b>Martin Blackwood</b>
+          </h5>
+          <h5>
+            <a href="https://rustyquill.com/ben-meredith/" class="magnus-link"
+              >Ben Meredith</a
+            >
+          </h5>
+          <h5>Sasha Sienna</h5>
+          <h5>
+            <a href="https://rustyquill.com/lydia-nicholas/" class="magnus-link"
+              >Lydia Nicholas</a
+            >
+          </h5>
+          <h5>
+            <a href="https://rustyquill.com/mike-lebeau/" class="magnus-link"
+              >Mike LeBeau</a
+            >
+          </h5>
+          <h5>
+            <a
+              href="https://rustyquill.com/alasdair-stuart-pseudopod-escapepod/"
+              class="magnus-link"
+              >Alasdair Stuart</a
+            >
+          </h5>
+          <h5>Jon Gracey</h5>
+          <h5>Paul Sims</h5>
+          <h5>Sue Sims</h5>
+          <h5>Frank Voss</h5>
+          <h5>
+            <a href="https://rustyquill.com/hannah-brankin/" class="magnus-link"
+              >Hannah Brankin</a
+            >
+          </h5>
+          <h5>Lottie Broomhall</h5>
+          <h5>Jessica Law</h5>
+        </div>
+        <div class="credit-block col-md-6 col-sm-12">
+          <h2>Edited By</h2>
+          <h5>
+            <a
+              href="https://rustyquill.com/engineer-annie-fitch/"
+              class="magnus-link"
+              >Annie Fitch</a
+            >
+          </h5>
+          <h5>
+            <a
+              href="https://rustyquill.com/elizabeth-moffatt/"
+              class="magnus-link"
+              >Elizabeth Moffatt</a
+            >
+          </h5>
+          <h5>
+            <a href="https://rustyquill.com/brock-winstead/" class="magnus-link"
+              >Brock Winstead</a
+            >
+          </h5>
+        </div>
+        <div class="credit-block col-md-6 col-sm-12">
+          <h2>Music By</h2>
+          <h5>
+            <a href="https://rustyquill.com/sam-jones/" class="magnus-link"
+              >Samuel DF Jones</a
+            >
+          </h5>
+        </div>
+      </div>
+
+      <h1>Awards</h1>
+      <div class="container row magnus-cards">
+        <div class="card col-md-4 col-sm-12">
+          <img
+            src="assets/discover-pods-awards-2019-banner.png"
+            class="card-img-top"
+            alt="Discover Pods Awards 2019 Banner"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Discover Pods Awards</h5>
+            <p class="card-text">
+              <b>Winner</b> of the best <b>Audio Drama or Fiction Podcast</b>
+            </p>
+            <a
+              href="https://awards.discoverpods.com/announcing-the-winners-of-the-2019-discover-pods-awards/"
+              class="btn btn-primary btn-magnus"
+              >Read More</a
+            >
+          </div>
+        </div>
+        <div class="card col-md-4 col-sm-12">
+          <img
+            src="assets/audio-verse-awards-2019-banner.png"
+            class="card-img-top"
+            alt="Audio Verse Awards 2019 Banner"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Audio Verse Awards 2019</h5>
+            <p class="card-text">
+              <b>Winner of 5</b> Audio Verse awards 2019 including
+              <b>Best Audioplay</b> and
+              <b>Best Writing</b>
+            </p>
+            <a
+              href="https://audioverseawards.net/2019-winners/"
+              class="btn btn-primary btn-magnus"
+              >Read More</a
+            >
+          </div>
+        </div>
+        <div class="card col-md-4 col-sm-12">
+          <img
+            src="assets/podcast-awards-banner.png"
+            class="card-img-top"
+            alt="Podcast Awards Banner"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Podcast Awards 2016</h5>
+            <p class="card-text">Nominee for Best Arts Podcast</p>
+          </div>
+        </div>
+      </div>
+
+      <h1>Press</h1>
+      <div class="container row magnus-cards">
+        <div class="card col-md-4 col-sm-12">
+          <img
+            src="assets/games-radar-logo.png"
+            class="card-img-top"
+            alt="Games Radar Logo"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Games Radar</h5>
+            <p class="card-text">
+              "One of the 10 best horror podcasts to give you nightmares"
+            </p>
+            <a
+              href="https://www.gamesradar.com/best-horror-podcasts/"
+              class="btn btn-primary btn-magnus"
+              >Read More</a
+            >
+          </div>
+        </div>
+        <div class="card col-md-4 col-sm-12">
+          <img
+            src="assets/avclub-banner.png"
+            class="card-img-top"
+            alt="AV Club Logo"
+          />
+          <div class="card-body">
+            <h5 class="card-title">AV Club</h5>
+            <p class="card-text">Top 5 Horror Offerings That Aren't Films</p>
+            <a
+              href="https://www.avclub.com/5-offerings-that-aren-t-horror-films-to-get-you-in-th-1829535797"
+              class="btn btn-primary btn-magnus"
+              >Read More</a
+            >
+          </div>
+        </div>
+        <div class="card col-md-4 col-sm-12">
+          <img
+            src="assets/screen-rant-icon-logo-transparent.jpg"
+            class="card-img-top"
+            alt="Screen Rant Logo"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Screen Rant</h5>
+            <p class="card-text">
+              The 10 Best (& Most Terrifying) Horror Podcasts Of All Time
+            </p>
+            <a
+              href="https://screenrant.com/best-horror-podcasts/"
+              class="btn btn-primary btn-magnus"
+              >Read More</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <ul class="magnus-links-list" id="magnus-sites">
+        <li>
+          <a
+            href="https://the-magnus-archives.fandom.com/wiki/The_Magnus_Archives_Wikia"
+            class="magnus-link"
+            >The Magnus Archives Wiki</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.reddit.com/r/TheMagnusArchives/"
+            class="magnus-link"
+            >The Magnus Archives Reddit</a
+          >
+        </li>
+        <li>
+          <a href="https://www.imdb.com/title/tt12429024/" class="magnus-link"
+            >The Magnus Archives IMDB</a
+          >
+        </li>
+      </ul>
+    </section>
+    <footer>
+      <h4>"Audio. Opperior. Vigilo."</h4>
+      <navigation id="ft-nav">
+        <ul class="magnus-links-list">
+          <li>
+            <a href="https://rustyquill.com/contact/" class="magnus-link"
+              >Contact Us</a
+            >
+          </li>
+          <li>
+            <a href="https://rustyquill.com/legals/" class="magnus-link"
+              >Legals</a
+            >
+          </li>
+          <li>
+            <a href="https://rustyquill.com/subscribe/" class="magnus-link"
+              >RSS</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://rustyquill.com/press-releases-and-epk/"
+              class="magnus-link"
+              >Press</a
+            >
+          </li>
+          <li>
+            <a href="https://rustyquill.com/Sitemap/" class="magnus-link"
+              >Sitemap</a
+            >
+          </li>
+        </ul>
+        <ul id="ft-socials">
+          <li>
+            <a
+              href="https://www.youtube.com/channel/UCAfn5ahWLpQmCIN7D0E1YQg"
+              class="social"
+              ><ion-icon name="logo-youtube"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/therustyquill" class="social"
+              ><ion-icon name="logo-facebook"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/therustyquill" class="social"
+              ><ion-icon name="logo-twitter"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="https://discord.com/invite/xte5Dsg" class="social">
+              <ion-icon name="logo-discord"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social">
+              <ionic-icon name="custom-patreon"></ionic-icon>
+            </a>
+          </li>
+        </ul>
+      </navigation>
+      <h5>Copyright © 2020 Rusty Quill Ltd. All rights reserved.</h5>
+    </footer>
+
+    <!-- Ionicons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- Bootstrap -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
